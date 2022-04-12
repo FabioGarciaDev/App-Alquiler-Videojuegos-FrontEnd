@@ -1,0 +1,31 @@
+#menuPrincipal{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+    background-color: #24303c;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#menuPrincipal ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+#menuPrincipal ul li{
+    display: inline-block;
+}
+
+#menuPrincipal ul li a{
+    color: white;
+    display: block;
+    padding: 15px 37px;
+    text-decoration: none;
+
+}
+
+#menuPrincipal ul li a:hover{
+    background-color: #1f53c5;
+}

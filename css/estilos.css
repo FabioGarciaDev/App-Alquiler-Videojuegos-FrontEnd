@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+
+}
+
+label{
+    color: white;
+    font-size: 15px;
+}
+
+h2{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+    background-color: #24303c;
+    color: white ;
+    text-align: center;    
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header{
+    background-color: #24303c;
+    color: white ;
+    text-align: center;    
+    padding: 20px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: rgb(96, 176, 202);
+}
+
+.forms{
+    width: 30%;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.forms h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.control{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.forms button{
+    width: 100%;
+    background: #1f53c5;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 15px, 0px;
+    font-size: 16px;
+}
+
+.divResultado{
+    width: 50%;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.divResultado h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.divResultado button{
+    width: 100%;
+    background: #1f53c5;
+    border:none;
+    padding: 12px;
+    color: white;
+    margin: 15px, 0px;
+    font-size: 16px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px black solid;
+}
+
+th{
+background-color: #1f53c5 ;
+color: white;
+padding: 7px;
+}
+
+.resultadoGames button{
+    color: red;
+
+}
+
+
+/* **** CONTROL BOTONES EDITAR ACTUALIZAR****** */
+#btnCrearCategoria{
+    visibility:visible;
+}
+#btnActualizarCategoria{
+    visibility:hidden;
+}
+
+#btnCrearGame{
+    visibility:visible;
+}
+#btnActualizarGame{
+    visibility:hidden;
+}
+
+#btnCrearCliente{
+    visibility:visible;
+}
+#btnActualizarCliente{
+    visibility:hidden;
+}
+
+#btnCrearMensaje{
+    visibility:visible;
+}
+#btnActualizarMensaje{
+    visibility:hidden;
+}
+
+#btnCrearReserva{
+    visibility:visible;
+}
+#btnActualizarReserva{
+    visibility:hidden;
+}

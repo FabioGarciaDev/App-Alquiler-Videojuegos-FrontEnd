@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Tienda videojuegos</title>
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../css/estiloMenu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/misFuncionesReportes.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1> Bienvenido a la tienda de videojuegos!!!!</h1>
+    </header>
+
+    <h2>REPORTES</h2>
+
+    <nav>
+        <div id="menuPrincipal">
+            <ul>
+                <li><a href="../index.html">Principal</a></li>
+                <li><a href="Categorias.html">Categorias</a></li>
+                <li><a href="Juegos.html">Juegos</a></li>
+                <li><a href="Clientes.html">Clientes</a></li>
+                <li><a href="Mensajes.html">Mensajes</a></li>
+                <li><a href="Reservaciones.html">Reservaciones</a></li>
+                <li><a href="Reportes.html">Reportes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--CAJA PARA TRAER DATOS CONSULTA STATUS-->
+    <div class="divResultado">
+        <h4>Consulta Status</h4>
+        <div id="resultadoStatus">
+
+        </div>
+        <Button id="btnResultado" onclick="getStatusReport()">Consultar Reporte Status</Button>
+    </div>
+    <br>
+
+
+    <!--CAJA PARA TRAER DATOS CONSULTA CLIENTES-->
+    <div class="divResultado">
+        <h4>Consulta Clientes y Status Reservas</h4>
+        <div id="resultadoClients">
+
+        </div>
+        <Button id="btnResultado" onclick="getClientReport()">Consultar Reporte Clientes</Button>
+    </div>
+    <br>
+
+
+    <!--CAJA PARA TRAER DATOS CONSULTA STATUS-->
+    <div class="divResultado">
+        <h4>Consulta por Fecha</h4>
+        <label>Fecha Inicio</Label>
+        <input class="control" type="date" id="rpStarDate" placeholder="descripcion">
+        <label>Fecha Devolucion</Label>
+        <input class="control" type="date" id="rpDevolutionDate" placeholder="descripcion">
+        <button onclick="getDateReport()"> Generar Reporte por fecha </button>
+        <div id="resultadoDate">
+
+        </div>
+    </div>
+    <br>
+
+</body>
+
+</html>
